@@ -5,7 +5,7 @@
       "args": [
         "exec",
         "-i",
-        "pwndbg-container",
+        "pwndbg-container-NAME",
         "python3", "/app/server.py"
       ],
       "env": {

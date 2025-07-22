@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 
+"""
+Claude Desktop 
+    ↓ (MCP over stdio)
+docker exec -i 
+    ↓ (stdin/stdout)
+컨테이너 내 server.py 
+    ↓ (subprocess)
+pwndbg + GDB
+"""
+
+
 import os
 import sys
 import json
