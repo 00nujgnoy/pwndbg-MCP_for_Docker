@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "pwndbg-mcp": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "pwndbg-container",
+        "python3", "/app/server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/app",
+        "GDB_BATCH": "1"
+      }
+    }
+  }
+}
