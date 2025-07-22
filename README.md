@@ -226,3 +226,6 @@ Claude: "사용 가능한 ROP 가젯을 찾아주세요"
 ## 수정 예정
 바이너리 로드 후 첫 도구 호출에는 pwndbg 초기화 메세지가 출력되며 AI가 확인하지 못 하고 다시 호출합니다.
 초기화 메세지를 정리하는 방법을 찾아 수정하도록 하겠습니다.
+
+<img width="935" height="637" alt="image" src="https://github.com/user-attachments/assets/5ab8591c-9b59-4628-9add-566b380631c2" />
+
