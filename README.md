@@ -30,7 +30,7 @@ Claude가 Docker 컨테이너 내의 pwndbg와 직접 통신하여 힙 분석, �
 예시 이미지는 우분투 22.04로 만들었습니다.
 
 **이미 컨테이너를 만들어둔 상태에서 MCP서버를 이식하고 싶다면
-2. MCP 서버 설치로 넘어가시면 됩니다**
+[2. MCP 서버 설치]로 넘어가시면 됩니다**
 
 ```dockerfile
 # Dockerfile
@@ -109,7 +109,7 @@ Claude Desktop 설정 파일을 찾아서 수정합니다:
       "args": [
         "exec",
         "-i", 
-        "pwndbg-container",
+        "container-NAME",
         "python3", "/app/server.py"
       ],
       "env": {
