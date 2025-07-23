@@ -7,7 +7,7 @@ AI(Claude)와 pwndbg를 연결하여 바이너리 분석 및 디버깅을 자동
 ## 🎯 개요
 
 ```
-Claude AI ↔ MCP Server ↔ Docker Container ↔ pwndbg + GDB ↔ Target Binary
+Claude AI → docker exec → [Container: MCP Server → pwndbg → GDB] → Target Binary
 ```
 
 Claude가 Docker 컨테이너 내의 pwndbg와 직접 통신하여 힙 분석, 보안 검사, 메모리 덤프 등을 수행할 수 있습니다.
