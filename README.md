@@ -125,7 +125,7 @@ Claude Desktop 설정 파일을 찾아서 수정합니다:
 
 1. **컨테이너 실행 상태 확인**
 ```bash
-docker ps | grep pwndbg-container
+docker ps | grep container-NAME
 ```
 
 2. **Claude Desktop 재시작**
